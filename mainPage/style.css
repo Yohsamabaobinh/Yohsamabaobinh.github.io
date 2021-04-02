@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width: 992px) { 
+    .allItem{
+        position: relative;
+        left: 140px;
+    }
+
+ }
+ @media (max-width: 576px) {
+    .des-aboutUs{
+        font-size: 1.1rem;
+    }
+    .back-page{
+        font-size: 1.2rem;
+    }
+ }
+html, * {
+    font-family: 'Segoe UI Regular' !important ; 
+}
+.text--bold{
+    font-weight: bolder;
+}
+.text--color{
+    color: #8B1A1C;
+}
+.nameChar{
+    font-size: 2.5rem;
+}
+.img__bg1
+{
+    background-image: url(./mainImg/backgroundImg.jpg);
+    background-position: left;
+    background-size: 35%;
+    background-position-x: -30%;
+    background-position-y: 150%;
+    background-repeat: no-repeat;
+}
+
+.img__bg {
+    /*display: none;*/
+    z-index: -1;
+    opacity: 50%;
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateX(-50%) translateY(20%);
+}
+
+.img__bg img {
+    width: 100%;
+    height: 100%;
+    position: sticky;
+}
+.containerNav{
+   margin-top: 20px;
+}
+.logo{
+    width: 100px;
+    height: 125px;
+
+}
+.inf_btn--color{
+    color: #8B1A1C;
+    padding-top: 0;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    margin-top: 70px;
+}
+
+.content{
+    margin: 80px 10px 70px 10px;
+}
+.btn-reading{
+    background-color: #8B1A1C;
+    color:#fff;
+    padding: 0 !important; 
+    border-radius: 0 15px 0 15px;
+    width: 20%;
+    max-width: 20%;
+    margin: 10px;
+    align-self: flex-end;
+}
+.avatar{
+    height: 100%;
+    width: 100%;
+}
+.textFont{
+    font-size: 14px;
+    font-weight: bolder;
+    color: #8B1A1C;
+}
+.contactInfo{
+    text-decoration: none;
+    color: #8B1A1C;
+    margin-right: 20px;
+}
+
+.dotContainer {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 50%;  
+    transform: translate(-50%,0);
+}
+
+.dot-item {
+    width: 10px;
+    height: 10px;
+   border: 1px solid #8B1A1C;
+    border-radius: 8px;
+    margin: 0 0.3rem;
+    cursor: pointer;
+}
+
+.dot-item_active {
+    background-color: #8B1A1C;
+}
+@media (min-width: 767.98px) {
+    .mainContainer{
+        flex-direction: row !important;
+        margin: 0 80px;
+    }
+    .nameChar{
+        margin-bottom: 50px !important;
+    }
+    .btn-reading{
+        align-self: start;
+    }
+    .dot-item{
+        margin: 0 1.3rem;
+    }
+    .img__bg{
+        display: none !important;
+    }
+    .content{
+        margin-right: 20px;
+        padding-right: 28px;
+    }
+}
+

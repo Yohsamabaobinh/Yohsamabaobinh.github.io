@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html, * {
+    font-family: 'Segoe UI Regular' !important ; 
+    background-color: #8B1A1C;
+}
+
+.contain{
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+.inf_btn--color{
+    float: right;
+    font-size: 1.2rem;
+    color: white;
+    width: 150px;
+    margin-top: 20px;
+    margin-right: 10px;
+    align-self: flex-end;
+}
+.logo_img{
+    width: 230px;
+    height: 400px;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+}
+.container_img{
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+    .contain{
+        height: 100vh;
+    }
+    .logo_img{
+        width: 270px;
+        height: 400px;
+    }
+    .inf_btn--color{
+        margin-top: 30px;
+        width: 200px;
+        height: 50px;
+        font-size: 1.6rem;
+    }
+}
