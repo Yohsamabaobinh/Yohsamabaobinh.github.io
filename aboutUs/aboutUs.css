@@ -1,0 +1,58 @@
+.back-page{
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(214, 32, 32);
+    font-weight: 700;
+}
+.des-aboutUs{
+    display: block;
+    text-align: center ;
+    padding: 60px;
+    font-size: 1.5rem;
+}
+.allItem{
+    /* display: flex;
+    justify-content: space-between; */
+    /* position: relative; */
+    /* left: 100px; */
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none !important;
+    border-radius: .25rem;
+}
+.card-name{
+    font-weight: 700;
+    display: block;
+    text-align: center;
+}
+.card-des{
+    font-weight: 500;
+    display: block;
+    text-align: center;
+}
+
+@media (min-width: 992px) { 
+    .allItem{
+        position: relative;
+        left: 140px;
+    }
+
+ }
+ @media (max-width: 576px) {
+    .des-aboutUs{
+        font-size: 1.1rem;
+    }
+    .back-page{
+        font-size: 1.2rem;
+    }
+ }
